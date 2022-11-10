@@ -1,0 +1,106 @@
+.utama {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	text-decoration: none;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+.header{
+    width: 100vw;
+    padding: 3vh;
+    height: 3vh;
+    background-color: rgb(220, 220, 220);
+
+}
+
+.header a {
+	text-decoration: none;
+}
+.footer{	
+    background-color: rgb(220, 220, 220);
+	width: 100%; 
+	height:300px;
+	
+	margin-top:70px;
+ }
+
+.kursi {
+	border: 1px solid black ;
+	padding: 20px;
+	width: 450px;
+	border-radius: 50px;
+}
+
+.ungu {
+	background-color: rgb(93, 28, 109);
+	margin: 30px;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	margin-left: 200px;
+	border-radius: 5px;
+}
+.biru {
+	background-color: blue;
+	margin: 30px;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	margin-left: 200px;
+	border-radius: 5px;
+}
+.merah {
+	background-color: red;
+	margin: 30px;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	margin-left: 200px;
+	border-radius: 5px;
+}
+.hitam {
+	background-color: black;
+	margin: 30px;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	margin-left: 200px;
+	border-radius: 5px;
+}
+.coklat {
+	background-color: brown;
+	margin: 30px;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	margin-left: 200px;
+	border-radius: 5px;
+}
+
+.text {
+	margin: 10px;
+	padding: 1px;
+}
+
+.harga {
+	padding: px;
+}
+
+.add {
+	background-color: rgb(236, 200, 231);
+	margin: 0px;
+	padding: 0px;
+	width: 400px;
+	height: 20px;
+}
+
+.kaki {
+	display: flex;
+	justify-content: space-around;
+}

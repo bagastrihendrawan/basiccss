@@ -1,0 +1,96 @@
+.utama {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	text-decoration: none;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+
+}
+ .logooo {
+    margin-left: 40px;
+ }
+
+.header{
+    width: 100vw;
+    padding: 3vh;
+    padding-bottom: 50px;
+    height: 3vh;
+    background-color: rgb(243, 243, 243);*/
+
+
+}
+
+.header a {
+	text-decoration: none;
+}
+.footer{	
+    background-color: rgb(250, 250, 250);
+	width: 100%; 
+	height:300px;
+	
+	margin-top:70px;
+ }
+
+.kursi {
+	
+	padding: 10px;
+	width: 600px;
+	border-radius: 20px ;
+	justify-content: center;
+	margin-right: 30px;
+	
+}
+
+.container img {
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-left: 200px;
+}
+
+
+.text {
+	margin: 10px;
+	padding: 1px;
+	border: 0px;
+}
+
+.harga {
+	padding: px;
+}
+
+.add {
+	background-color: rgb(236, 200, 231);
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	height: 32px;
+	border-radius: 50px;
+	margin-right: 150px;
+}
+
+.kaki {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-center {
+	display: flex;
+    justify-content: center;
+
+	border-radius: 50px;
+}
+
+.bangku4 {
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: rgb(243, 243, 243);
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+

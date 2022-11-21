@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="jq/jquery-3.6.1.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <nav class=" navbar navbar-light bg-light justify-content-beetwen">     
+            <div class="logooo">
+                <img src="assets/logo.png" alt="" width="90px">
+            </div>       
+            <div class="d-flex">
+                <a class="nav-link text-dark" href="#">Showcase</a>
+                <a class="nav-link text-dark" href="#">Catalog</a>
+                <a class="nav-link text-dark" href="#">Delivery</a>
+                <a class="nav-link text-dark" href="#">Rewards</a>   
+                <div>
+                    <img src="assets/cart-icon.png" alt="">
+                </div>            
+            </div>       
+      </nav>
+    <div>
+        <div class="header">
+            <a style="color: black;" href="#">Home /</a>
+            <a style="color: black;" href="#">Office Room /</a>
+            <a style="color: black;" href="#">Details /</a>
+            <a style="color: black;" href="#">Shipping </a><br>
+            <br><br><br>                  
+        </div>
+        <div class="alert alert-success alert-dismissible d-none" id="alert">            
+            
+           <center>
+               <h1 id="alerttextt"></h1>
+               <h5>Paket akan dikirimkan secepatnya ke alamat anda!</h5>
+               <p id="kedua"></p>
+              <a href="index.html"><button type="button" class="btn btn-outline-primary">Back</button></a>
+
+           </center>
+          </div>
+
+        
+                <div id="formid" class=" p-4 border border-danger" style="width: fit-content; margin: auto; margin-top: 5%;" >
+                    <div>
+                        <h1 style="text-align: center; margin-bottom: 5%;">Shipping Form</h1>
+                    </div>
+                    <form>
+                        <div class="form-row d-flex" >
+                          <div class="col-md-6 mb-3">
+                            <label for="validationDefault01">First Name</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First name" value="" >
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="validationDefault02">Phone Number</label>
+                            <input type="text" class="form-control" id="phone" placeholder="Phone number" value="" >
+                          </div>
+                        </div>
+            
+                        <div class="form-row"> 
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault01">last Name</label>
+                                <input type="text" class="form-control" id="lastname" placeholder="Last name" value="" >
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault02">City</label>
+                                <input type="text" class="form-control" id="city" placeholder="Enter City" value="" >
+                            </div>
+                          </div>
+                          
+                          <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                  <label for="validationDefault01">Email</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Email" value="" >
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationDefault02">Postal Code</label>
+                                    <input type="text" class="form-control" id="postal" placeholder="Postal Code" value="" >
+                                </div>
+                            </div>
+                                <div class="form-row">
+                                    <div class="col-md-3 mb-3">
+                                        <label for="">Address</label>
+                                        <textarea style="overflow: auto;" name="" id="address" cols="70" rows="4"></textarea>
+                                    </div>
+            
+                                </div>
+                                <div>
+                                    <button id="supmit" class="btn-lg mb-3" type="submit"  style="background-color: pink;">submit</button>
+                                </div>
+                            </form>
+                        
+                    </div>
+        
+<div class="footer">
+    <center>
+        <img src="assets/logo.png" alt="">
+    </center><br><br>
+    <div class="kaki">
+        <div>
+            <p><b>Overview</b></p>
+            <p>Shipping</p>
+            <p>Refund</p>
+            <p>Promotion</p>
+        </div>
+        <div>
+            <p><b>Company</b></p>
+            <p>About</p>
+            <p>Career</p>
+            <p>Contact Us</p>
+        </div>
+        <div>
+            <p><b>Explore</b></p>
+            <p>Terms & Condition</p>
+            <p>Privacy Policy</p>
+            <p>For Developer</p>
+        </div>
+                      
+    </div><br><br><br><br>
+
+    <div class="bawah">
+        <center>
+            <p>Copyright 2021 • <b>All Rights Reserved LuxSpace by BuildWith Abiseka Bagas</b> </p>
+        </center>
+       
+    </div>
+    
+</div>
+   
+</body>
+</html>
